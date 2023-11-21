@@ -1,0 +1,35 @@
+{
+  "name": "oauth-backend",
+  "version": "1.0.0",
+  "description": "A OAuth 2.0 Framework Backend",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imagicw/oauth-backend.git"
+  },
+  "keywords": [
+    "oauth"
+  ],
+  "author": "imagicw",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/imagicw/oauth-backend/issues"
+  },
+  "homepage": "https://github.com/imagicw/oauth-backend#readme",
+  "dependencies": {
+    "koa": "^2.14.2"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.12",
+    "@types/node": "^20.9.3",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.1.0",
+    "typescript": "4.9.5"
+  }
+}
